@@ -1,0 +1,20 @@
+server:
+  port: 11000
+spring:
+  datasource:
+    #MySQL配置
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3300/gulimall-wms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serve
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  application:
+    name: gulimall_ware
+mybatis-plus:
+  mapper-locations: "classpath:/mapper/**/*.xml"
+  global-config:
+    db-config:
+      id-type: auto
