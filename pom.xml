@@ -21,7 +21,8 @@
 		<module>renren-generator</module>
 		<module>gulimall_common</module>
 		<module>gateway</module>
-	</modules>
+        <module>gulimall_third_party</module>
+    </modules>
 
 	<build>
 		<plugins>

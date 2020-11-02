@@ -70,7 +70,6 @@ public class BrandController {
 
         return R.ok();
     }
-
     /**
      * 删除
      */
